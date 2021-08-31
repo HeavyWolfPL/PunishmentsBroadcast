@@ -1,6 +1,16 @@
-# PFE - Peanut Fucking Explodes
+# PB - PunishmentsBroadcast
+Send a broadcast with punishment details to everyone.
 
-Requires [EXILED v1.5.0](https://github.com/galaxy119/EXILED/releases/tag/1.5.0)
+## Default Config
+```yaml
+PB:
+  is_enabled: true
+  # Kick broadcast
+  kicked: true
+  kicked_time: 15
+  # Ban broadcast
+  banned: true
+  banned_time: 15
+  ```
 
-# Configs
-`pfe_magnitude` - Determines the magnitude of the explosion.
+## This is made for Exiled 2.14.
